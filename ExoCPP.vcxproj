@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CImage.cpp" />
     <ClCompile Include="ExoCPP.cpp" />
+    <ClCompile Include="Image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CImage.h" />
+    <ClInclude Include="Image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
